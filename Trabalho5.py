@@ -12,11 +12,11 @@ if optativa != -1:
 
 media = (nota1 + nota2) / 2
 
-print(f"Média do semestre: {media:.2f}")
+print(f"Média do semestre: {media:}")
 
 if media >= 6.0:
-    print("Aluno: Aprovado")
+    print("Aprovado")
 elif media < 3.0:
-    print("Aluno: Reprovado")
+    print("Reprovado")
 else:
-    print("Situação: Exame")
+    print("Exame de Recuperação")
